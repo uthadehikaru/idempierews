@@ -1,0 +1,29 @@
+{
+    "name": "uthadehikaru/idempiere-ws",
+    "description": "idempiere web service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Uthadehikaru\\IdempiereWS\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "uthadehikaru",
+            "email": "zuhriutama@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3",
+        "mtownsend/response-xml": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Uthadehikaru\\IdempiereWS\\Providers\\IdempiereWSServiceProvider"
+            ]
+        }
+    }
+}
