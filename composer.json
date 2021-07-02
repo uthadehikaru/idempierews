@@ -17,7 +17,9 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.3",
-        "mtownsend/response-xml": "dev-master"
+        "mtownsend/response-xml": "^2.0",
+        "mtownsend/xml-to-array": "^2.0",
+        "spatie/array-to-xml": "^2.16"
     },
     "extra": {
         "laravel": {
