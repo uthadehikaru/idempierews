@@ -62,7 +62,6 @@ class IdempiereWS
                     '_0:serviceType'=>$serviceName
                 ];
 
-        return $this->model('getList', $data);
         $this->setServiceType('getList');
         if($this->isComposite)
             $this->model = $data;
