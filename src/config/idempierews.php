@@ -4,8 +4,8 @@ return  [
 
     'host' => env('IDEMPIEREWS_HOST','http://localhost:8080'),
     'login_request' => [
-        '_0:user'=>env('IDEMPIEREWS_USER','GardenAdmin'),
-        '_0:pass'=>env('IDEMPIEREWS_PASS','GardenAdmin'),
+        '_0:user'=>env('IDEMPIEREWS_USER','SuperUser'),
+        '_0:pass'=>env('IDEMPIEREWS_PASS','System'),
         '_0:lang'=>env('IDEMPIEREWS_LANG','EN'),
         '_0:ClientID'=>env('IDEMPIEREWS_CLIENT','11'),
         '_0:RoleID'=>env('IDEMPIEREWS_ROLE','50004'),

@@ -3,7 +3,7 @@
 use Uthadehikaru\IdempiereWS\ModelADService;
 
 Route::get('idempierews', function() {
-    echo 'Hello from the idempiere WS!';
+    return 'Hello from the idempiere WS!';
 });
 
 Route::get('idempierews/query', function() {

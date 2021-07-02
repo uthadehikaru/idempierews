@@ -5,6 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
+            "Uthadehikaru\\IdempiereWS\\Tests\\": "tests/",
             "Uthadehikaru\\IdempiereWS\\": "src/"
         }
     },
